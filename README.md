@@ -20,6 +20,22 @@ The system performs real-time monitoring of battery parameters including voltage
 * Anomaly detection for abnormal battery behavior
 * Predictive analytics for battery temperature trends
 * Battery health monitoring concepts (SOC, SOH, RUL)
+  
+ ## Project Workflow
+
+Battery Pack
+↓
+Sensors (INA226 + DS18B20)
+↓
+ESP32 Data Acquisition
+↓
+Wi-Fi Communication
+↓
+Monitoring Dashboard
+↓
+Python Analytics
+↓
+Anomaly Detection & Prediction
 
 ## System Architecture
 
